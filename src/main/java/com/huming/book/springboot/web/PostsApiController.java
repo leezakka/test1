@@ -1,7 +1,9 @@
 package com.huming.book.springboot.web;
 
 import com.huming.book.springboot.service.posts.PostsService;
+import com.huming.book.springboot.web.dto.PostsResponseDto;
 import com.huming.book.springboot.web.dto.PostsSaveRequestDto;
+import com.huming.book.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
